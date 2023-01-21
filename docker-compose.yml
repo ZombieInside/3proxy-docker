@@ -7,4 +7,4 @@ services:
         environment:
             - PROXY_LOGIN=evil
             - PROXY_PASSWORD=live
-        image: 'ZombieInside/3proxy:latest'
+        image: 'tarampampam/3proxy:latest'
