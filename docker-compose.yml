@@ -1,0 +1,10 @@
+version: '3.3'
+services:
+    3proxy:
+        ports:
+            - '3128:3128/tcp'
+            - '1080:1080/tcp'
+        environment:
+            - PROXY_LOGIN=evil
+            - PROXY_PASSWORD=live
+        image: 'tarampampam/3proxy:latest'
